@@ -41,13 +41,108 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <h1>Assignment 2</h1>
+    <h1>Assignment 3</h1>
     <ul>
       <li><a href="a2/practice/index.html">HTML Practice</a></li>
       <li><a href="a2/twitter/navigation.html">Twitter Navigation</a></li>
       <li><a href="a2/twitter/home.html">Twitter Home</a></li>
+      <li><a href="a2/twitter/bookmark/bookmark.html">Twitter Bookmark</a></li>
+      <li><a href="a2/twitter/explore/explore.html.html">Twitter Explore</a></li>
+
+      <h1>Cascading Style Sheet (CSS)</h1>
+      <h2>Style attribute and tag</h2>
+      <h3>Style attribute</h3>
+      <p style="background-color: blue; color: white">
+        Style attribute allows configuring look and feel
+        right on the element. Although it's very convenient
+        it is considered bad practice and you should avoid
+        using the style attribute
+      </p>
+
 
     </ul>
+
+    <head>
+      <style>
+        p {
+          background-color: blue;
+          color: white;
+        }
+      </style>
+    </head>
+
+    <h3>Style tag</h3>
+    <p>
+      A slightly better way to configure look and feel
+      is to declare CSS rules in the STYLE tag in the
+      header and then refer to the tag by their name, ID,
+      or class This paragraph's style is set by a rule
+      referring to the P tags
+    </p>
+    <h2>Selectors</h2>
+    <h3>Link tag</h3>
+    <p>
+      The best way to apply CSS rules is to declare them
+      in a separate CSS file and load it with the LINK tag.
+      Always use this method.</p>
+
+    /*p {
+    background-color: blue;
+    color: white;
+    }*/
+    p#id-selector-1 {
+    background-color: red;
+    color: white;
+    }
+    p#id-selector-2 {
+    background-color: yellow;
+    color: black;
+    }
+
+    .class-selector {
+    background-color: yellow;
+    color: blue;
+    }
+
+    .selector-1 .selector-3 {
+    background-color: red;
+    color: white;
+    }
+    .selector-2 > .selector-3 > .selector-4 {
+    background-color: yellow;
+    color: blue;
+    }
+
+    .fg-color-black { color: black; }
+    .fg-color-white { color: white; }
+    .fg-color-blue { color: #7070ff; }
+    .fg-color-red { color: #ff7070; }
+    .fg-color-green { color: green; }
+
+    .bg-color-yellow
+    { background-color: #ffff07; }
+    .bg-color-blue
+    { background-color: #7070ff; }
+    .bg-color-red
+    { background-color: #ff7070; }
+    .bg-color-green
+    { background-color: green; }
+
+    .border-fat
+    { border-width: 20px 30px 20px 30px; }
+    .border-thin { border-width: 4px; }
+    .border-solid { border-style: solid; }
+    .border-dashed { border-style: dashed; }
+    .border-yellow { border-color: #ffff07; }
+    .border-red { border-color: #ff7070; }
+    .border-blue { border-color: #7070ff;
+
+    <h2>Borders</h2>
+    <p class="border-fat border-red border-solid">
+      Solid fat red border</p>
+    <p class="border-thin border-blue border-dashed">
+      Dashed thin blue border</p>
+
 
   </body>
 </html>
