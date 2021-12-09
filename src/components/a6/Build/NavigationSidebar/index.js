@@ -1,9 +1,11 @@
 import React from "react";
 import {Link} from "react-router-dom";
+
 const NavigationSidebar = (
     {
         active = 'explore'
     }) => {
+
     return(
         <>
             <div className="list-group">

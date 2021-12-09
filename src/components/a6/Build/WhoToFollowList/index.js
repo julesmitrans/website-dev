@@ -9,9 +9,9 @@ const WhoToFollowList = () => {
                 Who to follow
             </li>
             {
-                who.map(who => {
+                who.map((who, i) => {
                     return(
-                        <WhoToFollowListItem who={who}/>
+                        <WhoToFollowListItem key={i} who={who}/>
                     );
                 })
             }

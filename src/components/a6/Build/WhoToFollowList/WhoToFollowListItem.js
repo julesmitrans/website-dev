@@ -16,7 +16,7 @@ const WhoToFollowListItem = (
                 </div>
                 <div className="col-8">
                     <div className="fw-bold">{who.userName}
-                        <span className="fa-stack" style={{"font-size": "0.5em"}}>
+                        <span className="fa-stack" style={{"fontSize": "0.5em"}}>
                           <i className="fas fa-circle fa-stack-2x"></i>
                           <i className="fas fa-check fa-stack-1x fa-inverse"></i>
                         </span>
