@@ -12,10 +12,9 @@ import A9 from "./components/a9";
 
 import who from "./reducers/who";
 import tweets from "./reducers/tweets";
-import {combineReducers, createStore} from "redux";
+import {combineReducers} from "redux";
 //import {Provider} from "react-redux";
-
-const reducer = combineReducers({tweets: tweets, who})
+combineReducers({tweets: tweets, who});
 //const store = createStore(reducer);
 
 function App() {

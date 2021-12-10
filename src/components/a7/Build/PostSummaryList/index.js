@@ -4,7 +4,7 @@ import {useSelector} from "react-redux";
 
 const selectAllPosts = (state) => state.tweets.tweets;
 
-const PostSummaryList = ({title}) => {
+const PostSummaryList = title => {
     const posts = useSelector(selectAllPosts);
     return(
         <ul className="list-group">

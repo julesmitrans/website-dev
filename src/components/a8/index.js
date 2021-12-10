@@ -1,7 +1,7 @@
 import React from "react";
 import {Route} from "react-router-dom";
 import Practice from "./Practice";
-import Build from "./Build";
+//import Build from "./Build";
 
 const A7 = () => {
   return(

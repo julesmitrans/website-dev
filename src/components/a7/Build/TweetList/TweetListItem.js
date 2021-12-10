@@ -4,6 +4,7 @@ import TweetStats from "./TweetStats";
 import {useDispatch} from "react-redux";
 
 const TweetListItem = ({tweet}) => {
+    tweet.attachments = undefined;
     const dispatch = useDispatch();
     const deleteTweetClickHandler = () => {
         dispatch({type: 'delete-tweet', tweet})

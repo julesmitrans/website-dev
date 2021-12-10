@@ -4,7 +4,7 @@ import PostSummaryList from "../PostSummaryList";
 import TweetList from "../TweetList";
 import WhatsHappening from "../WhatsHappening";
 
-import {useDispatch} from "react-redux";
+//import {useDispatch} from "react-redux";
 
 
 const HomeScreen = () => {
