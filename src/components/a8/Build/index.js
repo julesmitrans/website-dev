@@ -15,5 +15,4 @@ const store = createStore(reducer);
 const Build = () => {
     return <div>Working</div>
 };
-
 export default Build;
