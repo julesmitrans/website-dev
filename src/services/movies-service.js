@@ -10,15 +10,19 @@ const deleteMovie = (req, res) => {
 module.exports = (app) => {
     const getAllMovies = (req, res) => res.json(movies);
     app.get('/api/movies', getAllMovies);
+
+
+    const createMovie = (req, res) => {
+        const movie = req.body;
+        movies = [...movies, movie];
+        res.json(movies);
+    }
+    app.post('/api/movies', createMovie);
+
+    app.delete('/api/movies/:mid', deleteMovie);
 }
     res.json(movies);
 };
-app.delete('/api/movies/:mid', deleteMovie);
 
-const createMovie = (req, res) => {
-    const movie = req.body;
-    movies = [...movies, movie];
-    res.json(movies);
-}
-app.post('/api/movies', createMovie);
+
 

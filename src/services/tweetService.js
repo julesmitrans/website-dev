@@ -8,3 +8,5 @@ export const likeTweet = (dispatch, tweet) =>
                 tweet
             }));
 
+
+export const deleteTweet = () => console.log('test')

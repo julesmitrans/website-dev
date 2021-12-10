@@ -3,7 +3,9 @@ const app = express();
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-require('./services/tweets-service')(app)
+require('../src/services/tweets-service')(app)
+
+//require('./services/movies-service')(app);
 app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers",
@@ -16,7 +18,6 @@ app.use(function(req, res, next) {
 app.get('/hello', (req, res) => {
     res.send('Hello World!');
 });
-require('./services/movies-service')(app);
 
 
 app.listen(4000);
