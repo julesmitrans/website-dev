@@ -2,9 +2,9 @@ import './vendors/bootstrap/css/bootstrap.min.css';
 import './vendors/bootstrap/bootstrap.min.css';
 import './vendors/fontawesome-pro/css/all.css';
 import {BrowserRouter, Link, Route} from "react-router-dom";
-import Practice from "./components/a7/Practice";
-import Build from "./components/a7/Build";
-import NavigationSidebar from "./components/a6/Build/NavigationSidebar";
+//import Practice from "./components/a7/Practice";
+//import Build from "./components/a7/Build";
+//import NavigationSidebar from "./components/a6/Build/NavigationSidebar";
 import A6 from "./components/a6";
 import A7 from "./components/a7";
 import A8 from "./components/a8";
@@ -13,10 +13,10 @@ import A9 from "./components/a9";
 import who from "./reducers/who";
 import tweets from "./reducers/tweets";
 import {combineReducers, createStore} from "redux";
-import {Provider} from "react-redux";
+//import {Provider} from "react-redux";
 
 const reducer = combineReducers({tweets: tweets, who})
-const store = createStore(reducer);
+//const store = createStore(reducer);
 
 function App() {
 
