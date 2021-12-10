@@ -2,19 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import HelloWorld from "./hello";
-import Todo from "./components/lectures/w6/Todo";
-import todos from './components/lectures/w6/todos.json';
-import NavigationExample from "./components/lectures/w6/NavigationExample";
-import NavigationSidebar from "./components/lectures/Build/NavigationSidebar";
-import WhoToFollowListItem
-  from "./components/lectures/Build/WhoToFollowList/WhoToFollowListItem";
-import WhoToFollowList from "./components/lectures/Build/WhoToFollowList";
-import ExploreScreen from "./components/lectures/Build/ExploreScreen";
-import Add from "./components/Add";
-import Subtract from "./components/Subtract";
-import Review from "./components/midterm/review";
-import ReduxExamples from "./components/lectures/w8/ReduxExamples";
+// import HelloWorld from "./hello";
+// import Todo from "./components/lectures/w6/Todo";
+// import todos from './components/lectures/w6/todos.json';
+// import NavigationExample from "./components/lectures/w6/NavigationExample";
+// import NavigationSidebar from "./components/lectures/Build/NavigationSidebar";
+// import WhoToFollowListItem
+//   from "./components/lectures/Build/WhoToFollowList/WhoToFollowListItem";
+// import WhoToFollowList from "./components/lectures/Build/WhoToFollowList";
+// import ExploreScreen from "./components/lectures/Build/ExploreScreen";
+// import Add from "./components/Add";
+// import Subtract from "./components/Subtract";
+// import Review from "./components/midterm/review";
+// import ReduxExamples from "./components/lectures/w8/ReduxExamples";
 
 // import reportWebVitals from './reportWebVitals';
 
