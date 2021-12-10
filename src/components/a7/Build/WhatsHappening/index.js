@@ -18,7 +18,9 @@ const WhatsHappening = () => {
                     <td style={{verticalAlign: 'top'}}>
                         <img src={'/images/elon.jpg'}
                              className="rounded-circle"
-                             style={{width: '48px', margin: '16px'}}/>
+                             style={{width: '48px', margin: '16px'}}
+                        alt = "desc"/>
+
                     </td>
                     <td style={{width: "100%"}}>
                         <textarea value={whatsHappening}
@@ -31,10 +33,10 @@ const WhatsHappening = () => {
                                   placeholder="What's happening?"></textarea>
                         <hr/>
                         <span>
-                            <a href="#"><i className="far fa-image me-3"></i></a>
-                            <a href="#"><i className="far fa-analytics me-3"></i></a>
-                            <a href="#"><i className="far fa-smile me-3"></i></a>
-                            <a href="#"><i className="far fa-calendar me-3"></i></a>
+                            <a href="../HomeScreen/"><i className="far fa-image me-3"/></a>
+                            <a href="../HomeScreen/"><i className="far fa-analytics me-3"/></a>
+                            <a href="../HomeScreen/"><i className="far fa-smile me-3"/></a>
+                            <a href="../HomeScreen/"><i className="far fa-calendar me-3"/></a>
                         </span>
                         <button onClick={tweetClickHandler} className="btn btn-primary fa-pull-right rounded-pill">
                             Tweet
